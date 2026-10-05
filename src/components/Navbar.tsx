@@ -53,7 +53,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           {/* Logo */}
           <a href="#home" aria-label="TAJ International Tours & Travels home" className="flex items-center gap-3 group">
-            <BrandLogo variant="mark" className="taj-logo--nav shrink-0" />
+            <BrandLogo variant="mark" className="w-10 h-12 md:w-11 md:h-14" alt="" />
             <div className="hidden sm:block">
               <div className="text-sm font-semibold tracking-[3px] text-gray-200 uppercase">International</div>
               <div className="text-[10px] tracking-[2px] text-gray-400 uppercase">Tours & Travels</div>
