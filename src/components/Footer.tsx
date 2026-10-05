@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, ArrowUp, Plane } from 'lucide-react';
+import TAJMark from './TAJMark';
 
 const quickLinks = [
   { name: 'Home', href: '#home' },
@@ -38,7 +39,7 @@ export default function Footer() {
                 <span className="text-xl font-bold gold-text font-['Playfair_Display']">T</span>
               </div>
               <div>
-                <div className="text-lg font-bold gold-text font-['Playfair_Display'] leading-tight">TAJ</div>
+                <div className="text-lg font-bold gold-text font-['Playfair_Display'] leading-tight"><TAJMark /></div>
                 <div className="text-[10px] tracking-[3px] text-gray-400 uppercase">International Tours & Travels</div>
               </div>
             </div>

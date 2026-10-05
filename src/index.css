@@ -56,6 +56,15 @@ body {
 }
 
 /* Gold gradient text */
+/* Keep the J in the TAJ wordmark unmistakable at small and large sizes. */
+.taj-j {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 700;
+  display: inline-block;
+  transform: translateY(0.03em);
+}
+
 .gold-text {
   background: linear-gradient(135deg, #e8d48b, #c9a84c, #a07b28, #c9a84c, #e8d48b);
   background-size: 200% auto;

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ChevronDown, MapPin, Plane, Globe } from 'lucide-react';
+import TAJMark from './TAJMark';
 
 const heroImages = [
   'https://images.pexels.com/photos/30554306/pexels-photo-30554306.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600',
@@ -69,7 +70,7 @@ export default function Hero() {
         <div className="mb-6">
           <div className="inline-block relative">
             <div className="text-6xl md:text-7xl font-bold gold-text font-['Playfair_Display'] tracking-wider">
-              TAJ
+              <TAJMark />
             </div>
             <div className="absolute -top-2 -right-3 text-xs text-[#c9a84c]/60 font-['Amiri']">تاج</div>
           </div>

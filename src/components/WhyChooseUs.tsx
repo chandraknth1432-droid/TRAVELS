@@ -1,4 +1,5 @@
 import { Clock, ThumbsUp, Headphones, BadgeCheck, CreditCard, Heart } from 'lucide-react';
+import TAJMark from './TAJMark';
 import { useInView } from './useInView';
 
 const reasons = [
@@ -60,7 +61,7 @@ export default function WhyChooseUs() {
         }`}>
           <span className="text-[#c9a84c] text-sm tracking-[6px] uppercase font-light">Why Us</span>
           <h2 className="text-4xl md:text-5xl font-bold font-['Playfair_Display'] mt-4 mb-6">
-            Why Choose <span className="gold-text">TAJ Travels</span>
+            Why Choose <span className="gold-text"><TAJMark /> Travels</span>
           </h2>
           <div className="section-divider" />
         </div>

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import TAJMark from './TAJMark';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from 'lucide-react';
 import { useInView } from './useInView';
 
@@ -47,7 +48,7 @@ export default function Contact() {
           }`}>
             <div className="bg-[#111]/80 rounded-3xl p-8 border border-[#c9a84c]/10 h-full">
               <h3 className="text-2xl font-bold font-['Playfair_Display'] mb-2">
-                TAJ International
+                <TAJMark /> International
               </h3>
               <p className="text-[#c9a84c] text-sm tracking-wider mb-8">Tours & Travels</p>
 

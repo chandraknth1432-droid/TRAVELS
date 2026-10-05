@@ -1,4 +1,5 @@
 import { Award, Users, Globe, Shield } from 'lucide-react';
+import TAJMark from './TAJMark';
 import { useInView } from './useInView';
 
 export default function About() {
@@ -56,7 +57,7 @@ export default function About() {
             isInView ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
           }`}>
             <h3 className="text-2xl font-bold font-['Playfair_Display'] mb-6">
-              TAJ International Tours & Travels
+              <TAJMark /> International Tours & Travels
             </h3>
             <p className="text-gray-400 leading-relaxed mb-6">
               Founded and led by <span className="text-[#c9a84c] font-medium">U Thajudeen</span>, 

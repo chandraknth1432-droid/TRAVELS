@@ -1,3 +1,5 @@
+import TAJMark from './TAJMark';
+
 export default function Preloader() {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0a0a0a]">
@@ -8,7 +10,7 @@ export default function Preloader() {
             <div className="absolute inset-0 rounded-full border-2 border-[#c9a84c]/30 animate-ping" />
             <div className="absolute inset-2 rounded-full border-2 border-[#c9a84c]/50 animate-pulse" />
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-4xl font-bold gold-text font-['Playfair_Display']">TAJ</span>
+              <span className="text-4xl font-bold gold-text font-['Playfair_Display']"><TAJMark /></span>
             </div>
           </div>
         </div>
