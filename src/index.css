@@ -69,47 +69,14 @@ body {
   overflow: visible;
 }
 
-.taj-logo__mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.18em;
-  line-height: 1;
-  white-space: nowrap;
-  overflow: visible;
-}
-
-.taj-logo__arabic {
-  direction: rtl;
-  font-family: 'Amiri', 'Noto Naskh Arabic', serif;
-  font-size: 2.4em;
-  font-weight: 700;
-  line-height: 1.35;
-  padding-inline: 0.08em;
-  white-space: nowrap;
-}
-
-.taj-logo__letters {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 0.9em;
-  font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: 0.02em;
-  white-space: nowrap;
-  overflow: visible;
-}
-
-.taj-logo__letters > span {
+.taj-logo__word {
   display: block;
-  line-height: 1.3;
-}
-
-.taj-logo__letters > span:last-child {
-  padding-bottom: 0.12em;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.08;
+  white-space: nowrap;
 }
 
 .taj-logo__caption {
@@ -129,8 +96,10 @@ body {
 
 .taj-logo--hero { font-size: 24px; }
 .taj-logo--nav { font-size: 12px; }
-.taj-logo--nav .taj-logo__arabic { font-size: 2.1em; }
-.taj-logo--nav .taj-logo__mark { padding-left: 0.25em; }
+.taj-logo--nav .taj-logo__word {
+  font-size: 1.65em;
+  letter-spacing: 0.03em;
+}
 .taj-logo--footer { font-size: 16px; }
 .taj-logo--preloader { font-size: 20px; }
 

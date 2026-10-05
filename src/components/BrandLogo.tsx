@@ -11,14 +11,7 @@ export default function BrandLogo({
 
   return (
     <span className={`taj-logo ${isLockup ? 'taj-logo--lockup' : 'taj-logo--mark'} ${className}`.trim()}>
-      <span className="taj-logo__mark" aria-hidden="true">
-        <span className="taj-logo__arabic" lang="ar" dir="rtl">تاج</span>
-        <span className="taj-logo__letters">
-          <span>T</span>
-          <span>A</span>
-          <span>J</span>
-        </span>
-      </span>
+      <span className="taj-logo__word" aria-hidden="true">TAJ</span>
       {isLockup && (
         <span className="taj-logo__caption" aria-hidden="true">
           <span>International</span>
