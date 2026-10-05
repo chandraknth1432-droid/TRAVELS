@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ChevronDown, MapPin, Plane, Globe } from 'lucide-react';
-import TAJMark from './TAJMark';
+import BrandLogo from './BrandLogo';
 
 const heroImages = [
   'https://images.pexels.com/photos/30554306/pexels-photo-30554306.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600',
@@ -66,14 +66,13 @@ export default function Hero() {
       <div className={`relative z-10 text-center px-6 max-w-5xl mx-auto transition-all duration-1000 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}>
-        {/* Arabic calligraphy inspired logo */}
-        <div className="mb-6">
-          <div className="inline-block relative">
-            <div className="text-6xl md:text-7xl tracking-wider">
-              <TAJMark gold />
-            </div>
-            <div className="absolute -top-2 -right-3 text-xs text-[#c9a84c]/60 font-['Amiri']">تاج</div>
-          </div>
+        {/* TAJ logo mark from the supplied brand reference */}
+        <div className="mb-4">
+          <BrandLogo
+            variant="mark"
+            className="w-32 sm:w-36 md:w-40 mx-auto"
+            alt="TAJ Arabic calligraphy with T, A and J stacked beside it"
+          />
         </div>
 
         {/* Subtitle */}

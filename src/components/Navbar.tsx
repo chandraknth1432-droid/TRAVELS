@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone, Mail } from 'lucide-react';
-import TAJMark from './TAJMark';
+import BrandLogo from './BrandLogo';
 
 const navLinks = [
   { name: 'Home', href: '#home' },
@@ -52,14 +52,11 @@ export default function Navbar() {
       }`}>
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-3 group">
-            <div className="relative w-12 h-12 flex items-center justify-center">
-              <div className="absolute inset-0 rounded-full border border-[#c9a84c]/40 group-hover:border-[#c9a84c] transition-colors" />
-              <span className="text-xl font-bold gold-text font-['Playfair_Display']">T</span>
-            </div>
+          <a href="#home" aria-label="TAJ International Tours & Travels home" className="flex items-center gap-3 group">
+            <BrandLogo variant="mark" className="w-10 h-12 md:w-11 md:h-14" alt="" />
             <div className="hidden sm:block">
-              <div className="text-lg leading-tight"><TAJMark gold /></div>
-              <div className="text-[10px] tracking-[3px] text-gray-400 uppercase">Tours & Travels</div>
+              <div className="text-sm font-semibold tracking-[3px] text-gray-200 uppercase">International</div>
+              <div className="text-[10px] tracking-[2px] text-gray-400 uppercase">Tours & Travels</div>
             </div>
           </a>
 

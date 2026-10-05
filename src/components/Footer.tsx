@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail, ArrowUp, Plane } from 'lucide-react';
-import TAJMark from './TAJMark';
+import BrandLogo from './BrandLogo';
 
 const quickLinks = [
   { name: 'Home', href: '#home' },
@@ -33,15 +33,12 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="relative w-12 h-12 flex items-center justify-center">
-                <div className="absolute inset-0 rounded-full border border-[#c9a84c]/40" />
-                <span className="text-xl font-bold gold-text font-['Playfair_Display']">T</span>
-              </div>
-              <div>
-                <div className="text-lg leading-tight"><TAJMark gold /></div>
-                <div className="text-[10px] tracking-[3px] text-gray-400 uppercase">International Tours & Travels</div>
-              </div>
+            <div className="mb-6">
+              <BrandLogo
+                variant="lockup"
+                className="w-36 sm:w-40"
+                alt="TAJ International Tours & Travels"
+              />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Your trusted travel partner for domestic and international journeys. 

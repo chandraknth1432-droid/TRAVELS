@@ -1,18 +1,16 @@
-import TAJMark from './TAJMark';
+import BrandLogo from './BrandLogo';
 
 export default function Preloader() {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0a0a0a]">
       <div className="text-center">
-        {/* Animated Logo */}
-        <div className="relative mb-8">
-          <div className="w-24 h-24 mx-auto relative">
-            <div className="absolute inset-0 rounded-full border-2 border-[#c9a84c]/30 animate-ping" />
-            <div className="absolute inset-2 rounded-full border-2 border-[#c9a84c]/50 animate-pulse" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-4xl"><TAJMark gold /></span>
-            </div>
-          </div>
+        {/* TAJ International logo lockup */}
+        <div className="relative mb-6">
+          <BrandLogo
+            variant="lockup"
+            className="w-40 sm:w-44 mx-auto"
+            alt="TAJ International Tours & Travels"
+          />
         </div>
         
         {/* Loading bar */}
@@ -33,9 +31,6 @@ export default function Preloader() {
           }
         `}</style>
         
-        <p className="mt-4 text-[#c9a84c]/60 text-sm tracking-[4px] uppercase font-light">
-          International Tours & Travels
-        </p>
       </div>
     </div>
   );
