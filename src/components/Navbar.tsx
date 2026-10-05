@@ -58,7 +58,7 @@ export default function Navbar() {
               <span className="text-xl font-bold gold-text font-['Playfair_Display']">T</span>
             </div>
             <div className="hidden sm:block">
-              <div className="text-lg font-bold gold-text font-['Playfair_Display'] leading-tight"><TAJMark /></div>
+              <div className="text-lg font-bold gold-text font-['Playfair_Display'] leading-tight"><TAJMark gold /></div>
               <div className="text-[10px] tracking-[3px] text-gray-400 uppercase">Tours & Travels</div>
             </div>
           </a>
