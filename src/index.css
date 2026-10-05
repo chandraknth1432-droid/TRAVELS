@@ -56,13 +56,11 @@ body {
 }
 
 /* Gold gradient text */
-/* Keep the J in the TAJ wordmark unmistakable at small and large sizes. */
-.taj-j {
+/* Use one consistent serif for the wordmark, with a clearly shaped J. */
+.taj-wordmark {
   font-family: Georgia, "Times New Roman", serif;
-  font-style: italic;
   font-weight: 700;
   display: inline-block;
-  transform: translateY(0.03em);
 }
 
 .gold-text {

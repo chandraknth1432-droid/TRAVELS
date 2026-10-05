@@ -69,7 +69,7 @@ export default function Hero() {
         {/* Arabic calligraphy inspired logo */}
         <div className="mb-6">
           <div className="inline-block relative">
-            <div className="text-6xl md:text-7xl font-bold gold-text font-['Playfair_Display'] tracking-wider">
+            <div className="text-6xl md:text-7xl tracking-wider">
               <TAJMark gold />
             </div>
             <div className="absolute -top-2 -right-3 text-xs text-[#c9a84c]/60 font-['Amiri']">تاج</div>

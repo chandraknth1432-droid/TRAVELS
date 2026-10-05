@@ -4,8 +4,6 @@ type TAJMarkProps = {
 
 export default function TAJMark({ gold = false }: TAJMarkProps) {
   return (
-    <>
-      TA<span className={`taj-j${gold ? " gold-text" : ""}`}>J</span>
-    </>
+    <span className={`taj-wordmark${gold ? " gold-text" : ""}`}>TAJ</span>
   );
 }

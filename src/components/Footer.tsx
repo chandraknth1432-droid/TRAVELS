@@ -39,7 +39,7 @@ export default function Footer() {
                 <span className="text-xl font-bold gold-text font-['Playfair_Display']">T</span>
               </div>
               <div>
-                <div className="text-lg font-bold gold-text font-['Playfair_Display'] leading-tight"><TAJMark gold /></div>
+                <div className="text-lg leading-tight"><TAJMark gold /></div>
                 <div className="text-[10px] tracking-[3px] text-gray-400 uppercase">International Tours & Travels</div>
               </div>
             </div>
