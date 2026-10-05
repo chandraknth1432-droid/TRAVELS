@@ -82,9 +82,10 @@ body {
 .taj-logo__arabic {
   direction: rtl;
   font-family: 'Amiri', 'Noto Naskh Arabic', serif;
-  font-size: 3.55em;
+  font-size: 2.4em;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.35;
+  padding-inline: 0.08em;
   white-space: nowrap;
 }
 
@@ -128,6 +129,8 @@ body {
 
 .taj-logo--hero { font-size: 24px; }
 .taj-logo--nav { font-size: 12px; }
+.taj-logo--nav .taj-logo__arabic { font-size: 2.1em; }
+.taj-logo--nav .taj-logo__mark { padding-left: 0.25em; }
 .taj-logo--footer { font-size: 16px; }
 .taj-logo--preloader { font-size: 20px; }
 

@@ -67,7 +67,7 @@ export default function Hero() {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}>
         {/* Text-built logo: the J has its own clear line and cannot be overlapped. */}
-        <div className="mb-6">
+        <div className="mb-10">
           <BrandLogo variant="mark" className="taj-logo--hero mx-auto" />
         </div>
 
