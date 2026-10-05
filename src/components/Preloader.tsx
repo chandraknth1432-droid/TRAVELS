@@ -4,13 +4,9 @@ export default function Preloader() {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0a0a0a]">
       <div className="text-center">
-        {/* TAJ International logo lockup */}
-        <div className="relative mb-6">
-          <BrandLogo
-            variant="lockup"
-            className="w-40 sm:w-44 mx-auto"
-            alt="TAJ International Tours & Travels"
-          />
+        {/* Text-built lockup; each Latin letter has its own line and clear space. */}
+        <div className="mb-8">
+          <BrandLogo variant="lockup" className="taj-logo--preloader mx-auto" />
         </div>
         
         {/* Loading bar */}

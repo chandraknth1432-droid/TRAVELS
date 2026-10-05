@@ -34,11 +34,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-6">
-              <BrandLogo
-                variant="lockup"
-                className="w-36 sm:w-40"
-                alt="TAJ International Tours & Travels"
-              />
+              <BrandLogo variant="lockup" className="taj-logo--footer" />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Your trusted travel partner for domestic and international journeys. 
